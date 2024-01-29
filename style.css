@@ -66,13 +66,76 @@
     top: 60%;
 }
 
+.cont{
+    padding: 100px 0;
+}
 
+.card-img-top{
+    width: 50%;
+    margin:auto;
+    position: relative;
+    z-index: 1;
+}
+.back1{
+    width: 100%;
+    position: absolute;
+    top: 38%;
 
-
+}
+.back1 img{
+    width: 100%;
+ 
+}
+.back2{
+    width: 100%;
+    position: absolute;
+    top: 24%;
+    opacity: .3;
+    left: 0%;
+}
+.back2 img{
+    width: 100%;
+ 
+}
+.head{
+    padding: 20px 64px;
+    font-size: 23px;
+    width: 100%;
+    text-align: center;
+}
+.tex{
+    font-size: 15px ;
+}
 /* media */
 
+.card{
+    margin:90px
 
+}
+@media (max-width:1400px) {
+    .card {
+        margin: 40px;
+    }
+}
+@media (max-width:1250px) {
+   
+    
+    .tex {
+        font-size: 16px;
+    }
+
+}
+@media (max-width:1200px) {
+    .card {
+        margin: 35px;
+        width: 25rem !important;
+    }
+
+}
 @media (max-width:1000px) {
+    .card{
+        width: 55rem !important;
+    }
     .logoonslide{
         text-align: center;
     
@@ -103,10 +166,18 @@
   
 }
 
+@media (max-width:950px) {
+    .card {
+        width: 40rem !important;
+    }
+}
 @media (max-width:800px) {
     .addtocard {
         right: 33%;
         top: 55%;
+    }
+    .card {
+        width: 30rem !important;
     }
 
 }
@@ -127,17 +198,76 @@
         right: 26%;
         top: 47%;
     }
+    .card {
+        width: 27rem !important;
+    }
+    .back1 {
+        width: 100%;
+        position: absolute;
+        top: 45%;
+        left: 0;
+    }
+    .back2 {
+        width: 100%;
+        position: absolute;
+        top: 34%;
+    }
+}
+@media (max-width:500px){
+    .card {
+        width: 24rem !important;
+    }
+    .back1 {
+        width: 100%;
+        position: absolute;
+        top: 52%;
+        left: 0;
+    }
+    .back2 {
+        width: 100%;
+        position: absolute;
+        top: 44%;
+    }
+
 }
 @media (max-width:450px){
     .addtocard {
         right: 21%;
         top: 43%;
     }
+    .card {
+        width: 21rem !important;
+    }
+}
+@media (max-width:400px){
+    .card {
+        width: 17rem !important;
+    }
+    .head{
+        font-size: 19px;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+    .back2 {
+        width: 100%;
+        position: absolute;
+        top: 54%;
+    }
+    .back1 {
+        width: 100%;
+        position: absolute;
+        top: 61%;
+    }
+    
 }
 @media (max-width:350px){
     .addtocard {
         right: 14%;
         top: 42%;
+    }
+    .card {
+        width: 15rem !important;
     }
 }
 
