@@ -1,0 +1,67 @@
+.banner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    background: url('images/img1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#inputsearch::placeholder {
+    font-family: 'Calibiri-Regular', sans-serif;
+    font-weight: 900;
+    color: #000;
+}
+.gradient {
+    background: linear-gradient(to right, #000, #000000ee 80%, #4d4c4c11);
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100%;
+}
+
+.logoonslide{
+    position: absolute;
+    top: 25%;
+    left: 4%;
+}
+
+.logoonslide img{
+    width: 40%;
+    margin-bottom: 15px;
+
+}
+.logoonslide p{
+    color: white;
+    text-align: center;
+    width: 40%
+}
+
+#delivery {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Calibiri-Bold';
+    padding: 8px 3px !important;
+    background-color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+#delivery img{
+    width: 10%;
+}
+.ordernow p {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Arial-Round';
+    -webkit-text-stroke: 2px black;
+    font-weight: bold;
+}
+.addtocard{
+    position: absolute;
+    right: 10%;
+    top: 60%;
+}
